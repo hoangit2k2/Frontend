@@ -1,0 +1,24 @@
+.custom-layout {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  /* Additional styles for your main content */
+}
+
+.custom-sider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s;
+  /* Additional styles for your Sider */
+}
+
+.collapsed {
+  width: 80px; /* Adjust this width for your collapsed state */
+}

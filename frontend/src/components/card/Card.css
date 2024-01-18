@@ -1,0 +1,20 @@
+/* YourComponent.css */
+
+.animated-layout {
+    position: relative;
+    z-index: 1; /* Higher z-index to ensure it's visually above other elements */
+    animation: yourAnimation 1s ease; /* Add your animation properties */
+  }
+  
+  @keyframes yourAnimation {
+    /* Define your animation keyframes here */
+    from {
+      /* Initial state */
+      opacity: 0;
+    }
+    to {
+      /* Final state */
+      opacity: 1;
+    }
+  }
+  
