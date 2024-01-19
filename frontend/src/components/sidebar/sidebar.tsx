@@ -36,10 +36,7 @@ const SiderBar: React.FC = () => {
     setCollapsed(collapse);
   };
   return (
-
-
-    
-      <Sider
+      <Sider style={{height: 1000 }}
         theme="light"
         collapsible
         collapsed={collapsed}
