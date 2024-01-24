@@ -52,10 +52,6 @@ const SiderBar: React.FC = () => {
           items={items}
         />
       </Sider>
-
-
-
-
   );
 };
 

@@ -2,7 +2,7 @@
 
 .animated-layout {
     position: relative;
-    z-index: 1; /* Higher z-index to ensure it's visually above other elements */
+    z-index: 4; /* Higher z-index to ensure it's visually above other elements */
     animation: yourAnimation 1s ease; /* Add your animation properties */
   }
   
@@ -25,4 +25,6 @@
     object-fit: cover;
     border-radius: 20px;
   }
-  
+  h2 {
+    margin-left: 20px;
+  }

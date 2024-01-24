@@ -11,12 +11,13 @@ import "./home.css";
 import banner from "../home/banner.png";
 import HeaderPage from "../header/header";
 import Category from "../category/category";
+import Product from "../product/product";
 const headerColor = '#D1EDE1';
 const Home: React.FC = () => {
   return (
     <Row >
       <Col span={1} className="animated-layout">
-        <Layout>
+        <Layout >
           <SiderBar></SiderBar>
         </Layout>
       </Col>
@@ -33,8 +34,14 @@ const Home: React.FC = () => {
             </Row>
             <Row >
               <Col span={20}> 
-              <h1>Menu Quán</h1>
+              <h2>Loại Món</h2>
               <Category ></Category>
+              </Col>
+            </Row>
+            <h2>Menu Quán</h2>
+            <Row >
+              <Col span={3}> 
+              <Product ></Product>
               </Col>
             </Row>
           </Content>

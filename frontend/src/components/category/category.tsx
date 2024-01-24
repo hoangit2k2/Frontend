@@ -3,7 +3,6 @@ import React from "react";
 import icon from "../category/iconbeer.png";
 import Meta from "antd/es/card/Meta";
 import "./category.css";
-
 const Category: React.FC = () => {
   return (
     <Card  className="card"
